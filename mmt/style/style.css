@@ -1,0 +1,593 @@
+*{
+    margin:0;
+    padding:0;
+    font-family: 'Roboto', sans-serif;
+
+}
+body, html{height:100%;}
+body{
+    text-align:center;
+
+}
+
+#titre > h1{
+    color: #D95560;
+    padding-bottom: 0.5em;
+    font-family: "Brush Script MT", sans-serif;
+    font-size: 80px;
+}
+
+
+#header{
+    background: #d9d9d9;
+    position:fixed;
+    z-index: 10;
+    top:0;
+    width:100%;
+    padding-top:50px;
+    box-shadow: -5px -6px 15px #fefffd, 5px 6px 15px #333132;
+    max-width: 10000px;
+}
+
+#footer{
+    background:#d9d9d9;
+    position:fixed;
+    z-index: 9;
+    bottom:0;
+    width:100%;
+    height: 120px;
+    padding-top:50px;
+    box-shadow: -5px -6px 15px #fefffd, 5px 6px 15px #333132;
+}
+
+#page{
+    min-height:100%;
+    margin:0 auto;
+    position:relative;
+}
+
+
+
+.boutonHeader{
+    margin: 40px;
+    background-color:#d9d9d9;
+    border: none;
+    color: #606060;
+    padding: 20px 60px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 40px;
+    border-radius: 50px;
+
+}
+.boutonHeader.activ{
+    background-color: #D95560;
+    color: #ffffff;
+    box-shadow: -5px -6px 15px #fefffd, 5px 6px 15px #333132;
+
+}
+
+.boutonFooter{
+    margin-left: 20px;
+    margin-bottom: 40px;
+    background-color:#d9d9d9;
+    border: none;
+    color: #606060;
+    padding: 15px 40px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 25px;
+    border-radius: 50px;
+
+}
+.boutonFooter.activ{
+    background-color: #D95560;
+    box-shadow: -5px -6px 15px #fefffd, 5px 6px 15px #333132;
+
+}
+
+
+
+body{
+    background-color: #d9d9d9;
+}
+
+h1{
+    color: #606060;
+    font-size: 60px;
+}
+
+#general {
+    padding-top: 450px;
+    max-width: 1280px;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+.post {
+    display: block;
+}
+
+
+.nom_post {
+    margin-left: 2em;
+    margin-bottom: 2em;
+    text-align: left;
+    height: 100px;
+    width: 100px;
+    box-shadow: -5px -6px 15px #fefffd, 5px 6px 15px #333132;
+    border-radius: 50px;
+    display: flex;
+
+}
+
+.nom_post>h3 {
+    display: block;
+    margin-left: 0.5em;
+    color: #606060;
+}
+
+.image_profil_flux{
+    float: left;
+}
+
+h3 {
+    padding-right: 5em;
+    font-size: 2.5em;
+    margin-top: 1em;
+    margin-bottom: auto;
+}
+
+.musique_affiche {
+    display: block;
+    margin-top: 5%;
+    border-radius: 90%;
+    height: 90%;
+    width: 90%;
+    object-fit: cover;
+    position: inherit;
+    top: 26px;
+}
+
+
+.iconemusic{
+    display: flex;
+    justify-content: center;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: #d9d9d9;
+    width: 40em;
+    height: 40em;
+    border-radius: 40em;
+    box-shadow: -5px -6px 15px #fefffd, 5px 6px 15px #333132;
+    margin-top: 2em;
+}
+
+
+.titre_post{
+    padding-top: 2em;
+
+}
+
+.titre_music{
+    letter-spacing: 0;
+    line-height: 30px;
+    opacity: 0.53;
+    font-size: 5em;
+    font-weight: bold;
+    text-align: center;
+}
+
+.auteur{
+    padding-top: 0.5em;
+    letter-spacing: 0;
+    line-height: 11px;
+    font-size: 2em;
+    opacity: 0.53;
+    text-align: center;
+    margin-top: 1em;
+}
+
+.barre_durée {
+    margin-right: auto;
+    margin-left: auto;
+}
+
+p{
+    font-size: 25px;
+
+}
+
+p.duréedroite{
+    color: #606060;
+    padding-top: 3em;
+    margin-right: 4em;
+    text-align: right;
+}
+
+p.duréegauche{
+    color: #606060;
+    padding-top: 3em;
+    float: left;
+    margin-left: 4em;
+    text-align: left;
+}
+
+.boutons_post {
+    display: flex;
+    justify-content: center;
+    margin-right: 15em;
+    margin-left: 15em;
+
+
+}
+
+.boutonnote{
+    display: flex;
+    justify-content: center;
+    border-radius: 55px;
+    height: 110px;
+    width: 110px;
+    box-shadow: -5px -6px 15px #fefffd, 5px 6px 15px #333132;
+    margin-top: 2em;
+}
+
+.boutoncommentaires > img {
+    display: block;
+    margin-top: 1.5em;
+}
+
+.boutonpause > img {
+    display: block;
+    margin-top: 2.5em;
+}
+
+.boutonnote > img {
+    display: block;
+    margin-top: 0.5em;
+}
+
+.boutonpause {
+    margin-right: auto;
+    margin-left: auto;
+    display: flex;
+    justify-content: center;
+    border-radius: 75px;
+    height: 150px;
+    width: 150px;
+    box-shadow: -5px -6px 15px #fefffd, 5px 6px 15px #333132;
+    margin-top: 2em;
+    background-color: #D95560;
+}
+
+.boutoncommentaires {
+    display: flex;
+    justify-content: center;
+    border-radius: 55px;
+    height: 110px;
+    width: 110px;
+    box-shadow: -5px -6px 15px #fefffd, 5px 6px 15px #333132;
+    margin-top: 2em;
+    text-align: left;
+}
+
+.text_connexion > p{
+    letter-spacing: 0;
+    line-height: 30px;
+    opacity: 0.53;
+    font-size: 5em;
+    font-weight: normal;
+    text-align: center;
+    padding-top: 5em;
+    padding-bottom: 2em;
+}
+
+
+
+
+label{
+    font-size: 30px;
+}
+
+input {
+    font-size: 50px;
+    margin-top: 1em;
+    margin-bottom: 1em;
+    text-align: center;
+    width: 15em;
+}
+
+
+
+.texte_rechercher {
+    size: 8em;
+    text-align: center;
+    margin-left: 6em;
+
+}
+
+.boutonRechercher {
+    position: absolute;
+    background-color: #D95560;
+    box-shadow: -5px -6px 15px #fefffd, 5px 6px 15px #333132;
+    border: none;
+    padding: 15px 15px;
+    display: flex;
+    border-radius: 50px;
+    margin-left: 2em;
+    margin-top: 1em;
+}
+
+.boutonplay_profil_groupe{
+    padding-top: 2em;
+}
+
+.personne {
+    position: inherit;
+}
+
+.nom_rechercher {
+    margin-left: 2em;
+    margin-bottom: 2em;
+    text-align: left;
+    height: 150px;
+    width: 150px;
+    box-shadow: -5px -6px 15px #fefffd, 5px 6px 15px #333132;
+    border-radius: 75px;
+    display: flex;
+}
+
+.nom_rechercher>img{
+    width: 150px;
+    height: 150px;
+}
+
+.nom_rechercher > h3 {
+    display: block;
+    margin-left: 3em;
+    font-size: 3em;
+    color: #606060;
+}
+#header>.nom_post{
+    position: absolute;
+}
+#titre_message > h1{
+    color: #D95560;
+
+}
+.date_message{
+    text-align: right;
+    margin-top: 2em;
+    margin-left: 7em;
+}
+.texte_message{
+    text-align: left;
+    margin-left: 6em;
+    margin-right: 6em;
+}
+
+.personne {
+    padding-top: 4em;
+}
+
+.nom_page_profil {
+    margin-left: 4em;
+    margin-bottom: 2em;
+    text-align: center;
+    height: 150px;
+    width: 150px;
+    box-shadow: -5px -6px 15px #fefffd, 5px 6px 15px #333132;
+    border-radius: 75px;
+    display: flex;
+
+}
+
+.nom_page_profil>img{
+    width: 150px;
+    height: 150px;
+}
+
+.nom_page_profil>p{
+    width: 150px;
+    height: 150px;
+}
+
+
+.musique_posté > p {
+    font-weight: bold;
+    margin-right: 1em;
+    margin-left: 1em;
+    font-size: 2em;
+    text-align: center;
+}
+
+
+.Abonnes > p{
+    font-weight: bold;
+    margin-right: 1em;
+    margin-left: 1em;
+    font-size: 2em;
+    text-align: center;
+}
+
+.Abonnements > p{
+    font-weight: bold;
+    margin-right: 1em;
+    margin-left: 1em;
+    font-size: 2em;
+    text-align: center;
+}
+
+
+
+.nom_profil {
+    font-size: 5em;
+    text-align: left;
+    margin-left: 2em;
+    margin-right: 2em;
+}
+
+.badge {
+    color: #D95560;
+    margin-left: 5em;
+    margin-right: 5em;
+    text-align: left;
+    font-style: italic;
+    font-size: 2em;
+}
+
+.decription_profil {
+    font-size: 2.5em;
+    text-align: left;
+    margin-left: 4em;
+    margin-right: 4em;
+    padding-bottom: 1em;
+}
+
+.nom_musique_profil {
+
+    margin-bottom: 2em;
+    margin-left: 4em;
+    text-align: left;
+    height: 150px;
+    width: 150px;
+    box-shadow: -5px -6px 15px #fefffd, 5px 6px 15px #333132;
+    border-radius: 75px;
+    display: flex;
+
+
+}
+
+.nom_musique_profil > h3 {
+    display: block;
+    margin-left: 3em;
+    font-size: 3em;
+    color: #606060;
+}
+
+.nom_musique_profil >img{
+    width: 150px;
+    height: 150px;
+}
+
+.invisible{
+    display: none;
+}
+
+.boutonplay {
+    display: flex;
+    justify-content: center;
+    border-radius: 50px;
+    height: 100px;
+    width: 100px;
+    box-shadow: -5px -6px 15px #fefffd, 5px 6px 15px #333132;
+    margin-top: 2em;
+    background-color: #d9d9d9;
+    border: none;
+
+}
+
+.boutonplay > img {
+     display: block;
+     margin-top: 1.5em;
+    padding-left: 2em;
+    padding-right: 2em;
+ }
+
+
+
+
+#taper_message {
+   margin-top: 0;
+}
+
+.expediteur {
+    margin-top: 2em;
+    margin-left: 2em;
+    text-align: left;
+    font-size: 40px;
+    color: #D95560;
+
+}
+
+.receveur {
+    margin-top: 2em;
+    margin-right: 2em;
+    text-align: right;
+    font-size: 40px;
+    color: #737373;
+
+}
+
+a {
+    text-decoration: none;
+    color: #737373;
+}
+
+.boutonAjouter {
+    position: relative;
+    background-color: #D95560;
+    box-shadow: -5px -6px 15px #fefffd, 5px 6px 15px #333132;
+    border: none;
+    padding: 25px 25px;
+    display: inline-block;
+    border-radius: 50px;
+    margin-left: 0.5em;
+    margin-top: 1em;
+    font-size: 56px;
+    color: #333132;
+
+}
+
+.setting_type>button {
+    text-align: center;
+    margin-top: 1em;
+    margin-bottom: 1em;
+    font-size: 50px;
+    color: #737373;
+
+
+    background-color:#d9d9d9;
+    border: none;
+    padding: 20px 60px;
+    text-decoration: none;
+    display: inline-block;
+    border-radius: 50px;
+
+}
+.but {
+    text-align: center;
+    margin-top: 1em;
+    margin-bottom: 1em;
+    font-size: 50px;
+    color: #737373;
+
+
+    background-color:#d9d9d9;
+    border: none;
+    padding: 20px 60px;
+    text-decoration: none;
+    display: inline-block;
+    border-radius: 50px;
+
+}
+
+.being_pro {
+    color: white;
+    background-color:#D95560;
+    box-shadow: -5px -6px 15px #fefffd, 5px 6px 15px #333132;
+
+}
+
+.setting_type>.pro_user {
+    opacity: 30%;
+}
+
+
+
+
+
+
+
