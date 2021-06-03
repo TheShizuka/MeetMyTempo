@@ -1,0 +1,958 @@
+/* screen - web-1920-1 */
+
+body {
+  margin-left: auto;
+  margin-right: auto;
+}
+
+
+.roboto-light-black-40px {
+  color: var(--black);
+  font-family: 'Roboto', Helvetica, serif;
+  font-size: 40px;
+  font-style: normal;
+  font-weight: 300;
+}
+.roboto-light-blue-jeans-25px {
+  color: var(--blue-jeans);
+  font-family: "Roboto", Helvetica, serif ;
+  font-size: 25px;
+}
+.roboto-medium-magenta-35px {
+  color: var(--magenta);
+  font-family: "Roboto", Helvetica, serif;
+  font-size: 35px;
+}
+.roboto-medium-shark-25px {
+  color: var(--shark);
+  font-family: 'Roboto', Helvetica, serif;
+  font-size: 25px;
+  font-style: normal;
+  font-weight: 500;
+}
+.roboto-normal-black-35px {
+  color: var(--black);
+  font-family: 'Roboto', Helvetica, serif;
+  font-size: 35px;
+  font-style: normal;
+  font-weight: 400;
+}
+.roboto-thin-black-30px {
+  color: var(--black);
+  font-family: 'Roboto', Helvetica, serif;
+  font-size: 30px;
+  font-style: normal;
+  font-weight: 100;
+}
+.web-1920-1 {
+  background: linear-gradient(163.44deg, #e66eae -4.72%, #7a54d5 21.53%, #6eaae6 46.03%, #6ee672 67.83%, #e6b26e 87.42%, #e66e6e 101.68%, #000000 101.68%);
+  background-color: rgba(255,255,255,1.0);
+  height: 6703px;
+  overflow: hidden;
+  position: relative;
+}
+.a-propos-de-nous {
+  background-color: transparent;
+  height: auto;
+  left: 1240px;
+  letter-spacing: 0.00px;
+  line-height: 25px;
+  position: absolute;
+  text-align: left;
+  top: 162px;
+  width: 138px;
+  border: none;
+  outline: none;
+  cursor: pointer;
+}
+.adobe-stock123379772{
+  background-color: transparent;
+  height: 957px;
+  left: 828px;
+  object-fit: cover;
+  position: absolute;
+  top: 246px;
+  width: 1018px;
+}
+.composant-1-1 {
+  background-color: transparent;
+  height: 60px;
+  left: 1626px;
+  position: absolute;
+  top: 162px;
+  width: 144px;
+
+}
+.composant-1-2 {
+  background-color: transparent;
+  height: 100px;
+  left: 371px;
+  position: absolute;
+  top: 794px;
+  width: 350px;
+
+}
+.composant-1-3 {
+  background-color: transparent;
+  height: 159px;
+  left: 438px;
+  position: absolute;
+  top: 3883px;
+  width: 1011px;
+
+}
+.composant-1-4{
+  background: linear-gradient(115.6deg, #e6b26e 14.35%, #e66e6e 73.75%);
+  background-color: transparent;
+  border-radius: 32px;
+  height: 63px;
+  left: 1226px;
+  position: absolute;
+  top: 5984px;
+  width: 242px;
+}
+.composant-2-1 {
+  background-color: transparent;
+  height: 144px;
+  left: 150px;
+  position: absolute;
+  top: 150px;
+  width: 320px;
+}
+.email {
+  background-color: transparent;
+  height: auto;
+  left: 352px;
+  letter-spacing: 0.00px;
+  line-height: 35px;
+  position: absolute;
+  text-align: left;
+  top: 5669px;
+  width: 113px;
+}
+.entrez-ici-la-r-e-votre-message {
+  background-color: transparent;
+  height: auto;
+  left: 836px;
+  letter-spacing: 0.00px;
+  line-height: 30px;
+  opacity: 0.75;
+  position: absolute;
+  text-align: left;
+  top: 5776px;
+  width: 497px;
+}
+.entrez-ici-votre-message {
+  background-color: transparent;
+  height: auto;
+  left: 836px;
+  letter-spacing: 0.00px;
+  line-height: 30px;
+  opacity: 0.75;
+  position: absolute;
+  text-align: left;
+  top: 5880px;
+  width: 337px;
+}
+.entrez-votre-e-mail{
+  background-color: transparent;
+  height: auto;
+  left: 836px;
+  letter-spacing: 0.00px;
+  line-height: 30px;
+  opacity: 0.75;
+  position: absolute;
+  text-align: left;
+  top: 5672px;
+  width: 250px;
+}
+.envoyer{
+  background-color: transparent;
+  bottom: calc(42.11% - 19px);
+  color: var(--white);
+  font-family: 'Roboto', Helvetica, serif;
+  font-size: 35px;
+  font-style: normal;
+  font-weight: 400;
+  height: 44px;
+  letter-spacing: 0.00px;
+  line-height: 35px;
+  position: absolute;
+  right: calc(49.11% - 64px);
+  text-align: left;
+  width: 130px;
+}
+.groupe-de-masques-1{
+  background-color: transparent;
+  height: 1036px;
+  left: 50px;
+  object-fit: cover;
+  position: absolute;
+  top: 50px;
+  width: 1820px;
+}
+.hicham-ayatdesi-veloppement-web{
+  background-color: transparent;
+  height: 154px;
+  left: 72.42%;
+  letter-spacing: 0.00px;
+  line-height: 40px;
+  position: absolute;
+  text-align: center;
+  top: 67.55%;
+  width: 27.03%;
+}
+.informations-supplmentaires{
+  background-color: transparent;
+  color: var(--shark);
+  font-family: 'Roboto', Helvetica, serif;
+  font-size: 35px;
+  font-style: normal;
+  font-weight: 500;
+  height: auto;
+  left: 613px;
+  letter-spacing: 0.00px;
+  line-height: 35px;
+  position: absolute;
+  text-align: center;
+  top: 6138px;
+  width: 697px;
+}
+.inscrit-toi {
+  background-color: transparent;
+  color: var(--white);
+  font-family: 'Roboto', Helvetica, serif;
+  font-size: 45px;
+  font-style: normal;
+  font-weight: 400;
+  height: auto;
+  left: 403px;
+  letter-spacing: 0.00px;
+  line-height: 45px;
+  position: absolute;
+  text-align: center;
+  top: 817px;
+  width: 288px;
+  border: none;
+  outline: none;
+  cursor: pointer;
+}
+.inscrivez-vous-maintenant{
+  background-color: transparent;
+  color: var(--white);
+  font-family: 'Roboto', Helvetica, serif;
+  font-size: 60px;
+  font-style: normal;
+  font-weight: 500;
+  height: 74px;
+  left: 71px;
+  letter-spacing: 0.00px;
+  line-height: 60px;
+  position: absolute;
+  text-align: center;
+  top: 44px;
+  width: 872px;
+  border: none;
+  outline: none;
+  cursor: pointer;
+}
+.jamy-unverzagtgrant-marketing{
+  background-color: transparent;
+  height: 119px;
+  left: 0.99%;
+  letter-spacing: 0.00px;
+  line-height: 40px;
+  overflow: hidden;
+  position: absolute;
+  text-align: center;
+  top: 67.55%;
+  width: 27.03%;
+}
+.le-concepte {
+  background-color: transparent;
+  height: 39px;
+  left: 1045px;
+  letter-spacing: 0.00px;
+  line-height: 25px;
+  position: absolute;
+  text-align: left;
+  top: 162px;
+  width: 147px;
+  border: none;
+  outline: none;
+  cursor: pointer;
+}
+.le-groupe-le-tempo{
+  background-color: transparent;
+  color: var(--magenta);
+  font-family: "Roboto", Helvetica, serif;
+  font-size: 100px;
+  height: auto;
+  left: 150px;
+  letter-spacing: 0.00px;
+  line-height: 100px;
+  position: absolute;
+  text-align: left;
+  top: 394px;
+  width: 876px;
+}
+.ligne-1{
+  background-color: transparent;
+  height: 1px;
+  left: 836px;
+  object-fit: cover;
+  position: absolute;
+  top: 5730px;
+  width: 631px;
+}
+.ligne-2{
+  background-color: transparent;
+  height: 1px;
+  left: 836px;
+  object-fit: cover;
+  position: absolute;
+  top: 5834px;
+  width: 631px;
+}
+.ligne-3 {
+  background-color: transparent;
+  height: 1px;
+  left: 836px;
+  object-fit: cover;
+  position: absolute;
+  top: 5938px;
+  width: 631px;
+}
+.ligne-4{
+  background-color: transparent;
+  height: 1px;
+  left: 340px;
+  object-fit: cover;
+  position: absolute;
+  top: 6092px;
+  width: 1241px;
+}
+.lucas-verovegra-t-communication{
+  background-color: transparent;
+  height: 119px;
+  left: 36.26%;
+  letter-spacing: 0.00px;
+  line-height: 40px;
+  position: absolute;
+  text-align: center;
+  top: 67.55%;
+  width: 27.03%;
+}
+.meet-my-tempo {
+  background-color: transparent;
+  color: var(--shark);
+  font-family: 'Roboto', Helvetica, serif;
+  font-size: 60px;
+  font-style: normal;
+  font-weight: 700;
+  height: 146px;
+  left: 0px;
+  letter-spacing: 0.00px;
+  line-height: 60px;
+  position: absolute;
+  text-align: left;
+  top: -50px;
+  width: calc(100.00% + 2px);
+}
+.membres{
+  background-color: transparent;
+  background-position: 50% 50%;
+  background-size: cover;
+  height: 490px;
+  position: absolute;
+  top: 4651px;
+  width: 1820px;
+}
+.membres-de-lquipe{
+  background-color: transparent;
+  color: var(--black);
+  font-family: 'Roboto', Helvetica, serif;
+  font-size: 55px;
+  font-style: normal;
+  font-weight: 500;
+  height: 68px;
+  left: 29.84%;
+  letter-spacing: 0.00px;
+  line-height: 55px;
+  position: absolute;
+  text-align: center;
+  top: calc(5.92% - 4px);
+  width: 39.84%;
+}
+.message{
+  background-color: transparent;
+  height: auto;
+  left: 352px;
+  letter-spacing: 0.00px;
+  line-height: 35px;
+  position: absolute;
+  text-align: left;
+  top: 5877px;
+  width: 200px;
+}
+.noir_1{
+  background-color: transparent;
+  border-radius: 44px;
+  height: 235px;
+  left: 172px;
+  object-fit: cover;
+  position: absolute;
+  top: 124px;
+  width: 190px;
+}
+.noir_2{
+  background-color: transparent;
+  height: 145px;
+  left: 1490px;
+  object-fit: cover;
+  position: absolute;
+  top: 141px;
+  width: 145px;
+}
+.notre-adresse-4-5200-montbliard{
+  background-color: transparent;
+  height: auto;
+  left: 1102px;
+  letter-spacing: 0.00px;
+  line-height: 25px;
+  position: absolute;
+  text-align: center;
+  top: 6226px;
+  width: 481px;
+}
+.notre-email-con-emeetmytempocom{
+  background-color: transparent;
+  height: auto;
+  left: 340px;
+  letter-spacing: 0.00px;
+  line-height: 25px;
+  position: absolute;
+  text-align: center;
+  top: 6226px;
+  width: 481px;
+}
+.notre-email-con-emeetmytempocom{
+  background-color: transparent;
+  height: auto;
+  left: 340px;
+  letter-spacing: 0.00px;
+  line-height: 25px;
+  position: absolute;
+  text-align: center;
+  top: 6226px;
+  width: 481px;
+}
+.nous{
+  background-color: transparent;
+  height: auto;
+  left: 1426px;
+  letter-spacing: 0.00px;
+  line-height: 25px;
+  position: absolute;
+  text-align: left;
+  top: 163px;
+  width: 152px;
+  border: none;
+  outline: none;
+  cursor: pointer;
+}
+.nous-contacter{
+  background-color: transparent;
+  color: var(--black);
+  font-family: 'Roboto', Helvetica, serif;
+  font-size: 45px;
+  font-style: normal;
+  font-weight: 500;
+  height: auto;
+  left: 541px;
+  letter-spacing: 0.00px;
+  line-height: 45px;
+  position: absolute;
+  text-align: center;
+  top: 5504px;
+  width: 841px;
+}
+.numro-de-tlphon-09-xx-xx-xx-xx{
+  background-color: transparent;
+  height: auto;
+  left: 721px;
+  letter-spacing: 0.00px;
+  line-height: 25px;
+  position: absolute;
+  text-align: center;
+  top: 6226px;
+  width: 481px;
+}
+.objet{
+  background-color: transparent;
+  height: auto;
+  left: 352px;
+  letter-spacing: 0.00px;
+  line-height: 35px;
+  position: absolute;
+  text-align: left;
+  top: 5773px;
+  width: 113px;
+}
+.plateforme-de-c-dans-laventure{
+  background-color: transparent;
+  height: auto;
+  left: 1038px;
+  letter-spacing: 0.00px;
+  line-height: 35px;
+  position: absolute;
+  text-align: left;
+  top: 3153px;
+  width: 678px;
+}
+.possibilit-de-p-os-crations-ave{
+  background-color: transparent;
+  height: auto;
+  left: 72px;
+  letter-spacing: 0.00px;
+  line-height: 35px;
+  position: absolute;
+  text-align: left;
+  top: 2256px;
+  width: 750px;
+}
+.qui-somme-nous-raliser-le-con{
+  background-color: transparent;
+  color: var(--black);
+  font-family: "Roboto", Helvetica, serif;
+  font-size: 45px;
+  height: auto;
+  left: 406px;
+  letter-spacing: 0.00px;
+  line-height: 45px;
+  position: absolute;
+  text-align: center;
+  top: 4150px;
+  width: 1111px;
+}
+.rectangle-1_1 {
+  background: linear-gradient(127.49deg, #7a54d5 12.23%, #e66eae 77.62%);
+  background-color: transparent;
+  border-radius: 50px;
+  height: 100%;
+  left: 0px;
+  position: relative;
+  top: 0px;
+  width: 100%;
+  border: none;
+  outline: none;
+  cursor: pointer;
+}
+.rectangle-1_2{
+  background: linear-gradient(106.26deg, #6ee672 10.95%, #e6b26e 83.9%);
+  background-color: transparent;
+  border-radius: 50px;
+  height: 100%;
+  left: 0px;
+  position: absolute;
+  top: 0px;
+  width: 100%;
+  border: none;
+  outline: none;
+  cursor: pointer;
+
+}
+.rectangle-1_3{
+  background: linear-gradient(117.74deg, #7a54d5 14.03%, #e66eae 74.33%);
+  background-color: transparent;
+  border-radius: 50px;
+  height: 100%;
+  left: 0px;
+  position: relative;
+  top: 0px;
+  width: 100%;
+  border: none;
+  outline: none;
+  cursor: pointer;
+}
+.rectangle-4{
+  margin-top: 2em;
+  background-color: rgba(231,230,238,1.0);
+  border-radius: 102px;
+  height: 415em;
+  position: relative;
+  width: 115em;
+  margin-left: auto;
+  margin-right: auto;
+}
+.rectangle-5{
+  background-color: transparent;
+  height: 437px;
+  left: 864px;
+  object-fit: cover;
+  position: absolute;
+  top: 903px;
+  width: 1008px;
+}
+.rectangle-6{
+  background-color: rgba(231,230,238,1.0);
+  box-shadow: 0px 0px 20px rgba(0,0,0,1.0);;
+  height: 1153px;
+  margin-left: 7.5em;
+  margin-right: 7.5em;
+  position: absolute;
+  top: 5361px;
+  width: 100em;
+}
+.rectangle-7_1{
+  background-color: transparent;
+  height: 59px;
+  left: 847px;
+  object-fit: cover;
+  position: absolute;
+  top: 6384px;
+  width: 59px;
+}
+.rectangle-7_2{
+  background-color: transparent;
+  height: 59px;
+  left: 930px;
+  object-fit: cover;
+  position: absolute;
+  top: 6384px;
+  width: 59px;
+}
+.rectangle-7_3{
+  background-color: transparent;
+  height: 59px;
+  left: 1013px;
+  object-fit: cover;
+  position: absolute;
+  top: 6384px;
+  width: 60px;
+}
+.rectangle-8 {
+  position: fixed;
+  right: 10px;
+  bottom: 10px;
+  width: 70px;
+  height: 70px;
+  border-radius: 50%;
+  color: aliceblue;
+  border: none;
+  outline: none;
+  cursor: pointer;
+}
+.rectangle-9{
+  background-color: transparent;
+  height: 123px;
+  left: 413px;
+  position: absolute;
+  top: 0px;
+  width: 1163px;
+}
+.sinscrire{
+  background-color: transparent;
+  color: var(--white);
+  font-family: 'Roboto', Helvetica, serif;
+  font-size: 25px;
+  font-style: normal;
+  font-weight: 500;
+  height: auto;
+  left: 1626px;
+  letter-spacing: 0.00px;
+  line-height: 25px;
+  position: absolute;
+  text-align: center;
+  top: 177px;
+  width: 146px;
+  border: none;
+  outline: none;
+  cursor: pointer;
+}
+.span0_1{
+  color: rgba(39,39,39,1.0);
+  font-family: 'Roboto', Helvetica, serif;
+  font-size: 35px;
+  font-style: normal;
+  font-weight: 500;
+}
+.span0_2{
+  color: rgba(39,39,39,1.0);
+  font-family: 'Roboto', Helvetica, serif;
+  font-size: 25px;
+  font-style: normal;
+  font-weight: 400;
+}
+.span0_3{
+  color: rgba(39,39,39,1.0);
+  font-family: 'Roboto', Helvetica, serif;
+  font-size: 25px;
+  font-style: normal;
+  font-weight: 400;
+}
+.span0_4{
+  color: rgba(39,39,39,1.0);
+  font-family: 'Roboto', Helvetica, serif;
+  font-size: 35px;
+  font-style: normal;
+  font-weight: 500;
+}
+.span0_4{
+  color: rgba(39,39,39,1.0);
+  font-family: 'Roboto', Helvetica, serif;
+  font-style: normal;
+  font-weight: 500;
+}
+.span0_5 {
+  color: rgba(230,110,174,1.0);
+  font-family: 'Roboto', Helvetica, serif;
+  font-style: normal;
+  font-weight: 700;
+}
+.span0_6{
+  color: rgba(39,39,39,1.0);
+  font-family: 'Roboto', Helvetica, serif;
+  font-size: 35px;
+  font-style: normal;
+  font-weight: 500;
+}
+.span0_7 {
+  color: rgba(39,39,39,1.0);
+  font-family: 'Roboto', Helvetica, serif;
+  font-size: 25px;
+  font-style: normal;
+  font-weight: 400;
+}
+.span0_8 {
+  color: rgba(39,39,39,1.0);
+  font-family: 'Roboto', Helvetica, serif;
+  font-size: 25px;
+  font-style: normal;
+  font-weight: 400;
+}
+.span1_1 {
+  color: rgba(39,39,39,1.0);
+  font-family: 'Roboto', Helvetica, serif;
+  font-size: 35px;
+  font-style: normal;
+  font-weight: 300;
+}
+.span1_2 {
+  color: rgba(110,170,230,1.0);
+  font-family: 'Roboto', Helvetica, serif;
+  font-size: 25px;
+  font-style: normal;
+  font-weight: 300;
+}
+.span1_3 {
+  color: rgba(110,170,230,1.0);
+  font-family: 'Roboto', Helvetica, serif;
+  font-size: 25px;
+  font-style: normal;
+  font-weight: 300;
+}
+.span1_4{
+  color: rgba(39,39,39,1.0);
+  font-family: 'Roboto', Helvetica, serif;
+  font-size: 35px;
+  font-style: normal;
+  font-weight: 300;
+}
+.span1_5{
+  color: rgba(0,0,0,1.0);
+  font-family: 'Roboto', Helvetica, serif;
+  font-style: normal;
+  font-weight: 300;
+}
+.span1_6{
+  color: rgba(230,110,174,1.0);
+  font-family: 'Roboto', Helvetica, serif;
+  font-style: normal;
+  font-weight: 300;
+}
+.span1_7{
+  color: rgba(39,39,39,1.0);
+  font-family: 'Roboto', Helvetica, serif;
+  font-size: 35px;
+  font-style: normal;
+  font-weight: 300;
+}
+.span1_8{
+  color: rgba(110,170,230,1.0);
+  font-family: 'Roboto', Helvetica, serif;
+  font-size: 25px;
+  font-style: normal;
+  font-weight: 300;
+}
+.span1_9{
+  color: rgba(110,170,230,1.0);
+  font-family: 'Roboto', Helvetica, serif;
+  font-size: 25px;
+  font-style: normal;
+  font-weight: 300;
+}
+.span2_1{
+  color: rgba(230,110,174,1.0);
+  font-family: 'Roboto', Helvetica, serif;
+  font-size: 35px;
+  font-style: normal;
+  font-weight: 500;
+}
+.span2_2{
+  color: rgba(230,110,174,1.0);
+  font-family: 'Roboto', Helvetica, serif;
+  font-size: 35px;
+  font-style: normal;
+  font-weight: 500;
+}
+.span2_3{
+  color: rgba(39,39,39,1.0);
+  font-family: 'Roboto', Helvetica, serif;
+  font-size: 35px;
+  font-style: normal;
+  font-weight: 500;
+}
+.span3_1{
+  color: rgba(39,39,39,1.0);
+  font-family: 'Roboto', Helvetica, serif;
+  font-size: 35px;
+  font-style: normal;
+  font-weight: 300;
+}
+.span4{
+  color: rgba(230,110,174,1.0);
+  font-family: 'Roboto', Helvetica, serif;
+  font-size: 35px;
+  font-style: normal;
+  font-weight: 500;
+}
+.suivez-nous-sur-les-rseaux{
+  background-color: transparent;
+  color: var(--shark);
+  font-family: 'Roboto', Helvetica, serif;
+  font-size: 25px;
+  font-style: normal;
+  font-weight: 400;
+  height: auto;
+  left: 721px;
+  letter-spacing: 0.00px;
+  line-height: 25px;
+  position: absolute;
+  text-align: center;
+  top: 6332px;
+  width: 481px;
+}
+.toi-aussi-cre-t-icien-en-france{
+  background-color: transparent;
+  color: var(--shark);
+  font-family: 'Roboto', Helvetica, serif;
+  font-size: 25px;
+  font-style: normal;
+  font-weight: 300;
+  height: auto;
+  left: 150px;
+  letter-spacing: 0.00px;
+  line-height: 25px;
+  position: absolute;
+  text-align: left;
+  top: 684px;
+  width: 793px;
+}
+.trac-1{
+  background-color: transparent;
+  height: 702px;
+  left: 154px;
+  object-fit: cover;
+  position: absolute;
+  top: 1213px;
+  width: 663px;
+}
+.trac-2{
+  background-color: transparent;
+  height: 654px;
+  left: 986px;
+  object-fit: cover;
+  position: absolute;
+  top: 2160px;
+  width: 703px;
+}
+.trac-3{
+  background-color: transparent;
+  height: 564px;
+  left: 141px;
+  object-fit: cover;
+  position: absolute;
+  top: 3048px;
+  width: 706px;
+}
+.vous-en-avez-as-enir-meilleurvo{
+  background-color: transparent;
+  height: auto;
+  left: 954px;
+  letter-spacing: 0.00px;
+  line-height: 35px;
+  position: absolute;
+  text-align: left;
+  top: 1317px;
+  width: 846px;
+}
+.x1{
+  background-color: transparent;
+  height: 1395px;
+  left: -462px;
+  object-fit: cover;
+  position: absolute;
+  top: 871px;
+  width: 1860px;
+}
+.x2{
+  background-color: transparent;
+  height: 1395px;
+  left: -462px;
+  object-fit: cover;
+  position: absolute;
+  top: 2623px;
+  width: 1860px;
+}
+.x3{
+  background-color: transparent;
+  height: 1395px;
+  left: 446px;
+  object-fit: cover;
+  position: absolute;
+  top: 1747px;
+  width: 1860px;
+}
+.x48422753708011-0658507218944o_1 {
+  background-color: transparent;
+  border-radius: 44px;
+  height: 235px;
+  left: 814px;
+  object-fit: cover;
+  position: absolute;
+  top: 124px;
+  width: 190px;
+}
+.x48422753708011-0658507218944o_2{
+  background-color: transparent;
+  border-radius: 44px;
+  height: 235px;
+  left: 1472px;
+  object-fit: cover;
+  position: absolute;
+  top: 124px;
+  width: 190px;
+}
+:root {
+  --black: rgba(0,0,0,1.0);
+  --blue-jeans: rgba(110,170,230,1.0);
+  --magenta: rgba(230,110,174,1.0);
+  --shark: rgba(39,39,39,1.0);
+  --white: rgba(255,255,255,1.0);
+}
+
+input {
+  font-size: 30px;
+  width: 631px;
+}
