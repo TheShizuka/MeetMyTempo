@@ -21,10 +21,10 @@ var Feed_general = Vue.component('Feed_general',{
      </div>
  
      <div id="general">
-         <div class="post">
+         <div class="post" v-for="post in poste" :key="post.id_poste">
              <div class="nom_post">
                  <img class=image_profil_flux src="img/imageprofit.png" height="100" width="100"/>
-                 <h3>Lisa</h3>
+                 <h3>{{post.pseudo}}</h3>
              </div>
  
  
@@ -33,8 +33,8 @@ var Feed_general = Vue.component('Feed_general',{
              </div>
  
              <div class="titre_post">
-                 <p class="titre_music">Guereng</p>
-                 <p class="auteur">Made by Lisa</p>
+                 <p class="titre_music">{{post.titre_poste}}</p>
+                 <p class="auteur">Made by {{post.auteur}}</p>
              </div>
  
              <div class="durée">
@@ -94,6 +94,7 @@ var Feed_general = Vue.component('Feed_general',{
     ,
     data(){
         return{
+            poste:[],
             main:null
         }
     },
@@ -107,6 +108,17 @@ var Feed_general = Vue.component('Feed_general',{
             if(!this.main){
                 this.$router.push('/');
             }
+        })
+        axios.get(backEnd.listePostG)
+        // Réponse et récupération des données
+        .then(response => {
+        // Récupérer les données
+            
+            this.poste = response.data;
+            console.log(this.poste)
+        
+            
+            
         })
 
     },

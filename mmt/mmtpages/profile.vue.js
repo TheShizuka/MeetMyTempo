@@ -40,17 +40,17 @@ var Profile = Vue.component('Profile',{
                 <div class="iconemusic">
                     <img class="musique_affiche" src="img/musique_guerend.png" height="502" width="502" alt=""/>
                 </div>
-
-
-                <div class="nom_musique_profil">
+                <div class="general">
+                <div v-for="post in poste" :key="post.id_poste" class="nom_musique_profil">
                     <img class=image_profil_flux src="img/musique_guerend.png" height="100" width="100"/>
-                    <h3>guerend</h3>
+                    <h3>{{post.titre_poste}}</h3>
+                    <h2>{{post.auteur}}</h2>
                     <button class="boutonplay">
                         <img src="img/play.png" height="50" width="50"/>
                     </button>
                 </div>
 
-
+                </div>
             </div>
 
             <div id="footer">
@@ -79,7 +79,8 @@ var Profile = Vue.component('Profile',{
         return{
             main:null, // Structure de données des villageois
             fondateur:null,
-            descrip:null
+            descrip:null,
+            poste:[]
         }
     },
     mounted(){
@@ -101,6 +102,17 @@ var Profile = Vue.component('Profile',{
 
                 document.getElementById("fondateur").classList.add("invisible");
             }
+            
+            
+        })
+        axios.get(backEnd.listePostPROFILE)
+        // Réponse et récupération des données
+        .then(response => {
+        // Récupérer les données
+            
+            this.poste = response.data;
+            console.log(this.poste)
+        
             
             
         })

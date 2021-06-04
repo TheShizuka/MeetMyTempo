@@ -10,7 +10,7 @@ var Ajouter_poste = Vue.component('Ajouter_poste',{
       </div>
     </div>
   
-    <div class="connexion">
+    <form @submit="submit" class="connexion">
       <div class="text_connexion"><p>Ajouter votre musique</p></div>
   
       <div class="barre_recherche">
@@ -20,20 +20,20 @@ var Ajouter_poste = Vue.component('Ajouter_poste',{
                accept=".mp3, .avi" required>
   
         <div class="texte_identification"><label for="name_musique">Nom de la Musique</label></div>
-        <input type="text" id="name_musique" required>
+        <input type="text" v-model="post.nom_post" id="name_musique" required>
   
         <div class="texte_identification"><label for="auteur_musique">Auteur</label></div>
-        <input type="text" id="auteur_musique">
+        <input type="text" v-model="post.auteur" id="auteur_musique">
   
   
   
   
       </div>
   
-      <button class="boutonHeader activ">Ajouter</button>
+      <button type="submit" class="boutonHeader activ">Ajouter</button>
   
   
-    </div>
+    </form>
   
   
   
@@ -62,7 +62,13 @@ var Ajouter_poste = Vue.component('Ajouter_poste',{
     ,
     data(){
         return{
-            main:null
+          main:null,
+          post:{ 
+            
+            nom_post:null,
+            auteur: null,
+            pseudo:null
+          }
         }
     },
     mounted(){
@@ -79,6 +85,38 @@ var Ajouter_poste = Vue.component('Ajouter_poste',{
 
     },
     methods:{
+      submit:function(){
+         // Objet FormData pour passage de paramètres
+         let params = new FormData() ;
+         // Ajout des paramètres de la batailles
+         params.append("nom_post",             this.post.nom_post);    
+         params.append("auteur",       this.post.auteur);
+         params.append("pseudo",       this.main);
+         // Appel Ajax via axios création de l'utilisateur
+         axios.post(backEnd.creatPost, params)
+         // Réponse et récupération des données
+         .then(response => {
+             // Récupérer les données
+             console.log("retour de la promesse : ",response.data);
+
+             if(response.data =="1"){
+                 this.$router.push('/profile');
+                 alert("musique crée")
+
+             }else{
+                 alert("essayer a nouveau")
+             }
+             // Redirection sur la liste des villageois
+             
+         })
+         // Cas d'erreur
+         .catch(error =>{
+             console.log("Erreur : ", error);
+         })
+
+
+
+      }
 
 
     }
